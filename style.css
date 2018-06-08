@@ -1,4 +1,110 @@
-div {
+* {
+    font-family: sans-serif;
+}
+body {
+    width: 901px;
+    padding: 150px;
+}
+.break {
+    clear: both;
     height: 15px;
-    background: 
+    background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 50%, #888 50%, #888 75%, transparent 75%, transparent);
+    background-size: 4px 4px;
+    width: 960px;
+}
+/* HEADER */
+body header img {
+    float: left;
+}
+body header div {
+    float: left;
+    width: 220px;
+    margin-bottom: 30px;
+}
+body header h1 {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+body header h2 {
+    font-size: 10px;
+}
+body header ul {
+    float: right;
+}
+body header ul li {
+
+    display: inline-block;
+}
+    
+body main {
+    clear: both;
+}
+/* MAIN PAGE */
+body main div ul {
+        float: left;
+}
+#text ul li {
+    width: 901px;
+    font-size: 20px;
+    margin: 25px 0px;
+    font-family: serif;
+    line-height: 26px;
+}
+
+body main div ul li {
+    display: inline-block;
+    color: grey;
+    font-size: 12px;
+}
+body main h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: fantasy;
+    margin-top: 50px;
+}
+
+#checklist {
+    clear: both;
+    background-image: url("img/list-bg.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 50px;
+}
+#checklist ul {
+    width: 300px;
+    padding: 38px 30px 30px 70px
+}
+#checklist ul li {
+    font-size: 22px;
+    line-height:30px
+}
+#checklist ul:last-child li:last-child {
+    width: 390px;
+}
+
+/* BIO */
+#share {
+    float: right;
+    background-color: #c36156;
+    color: white;
+    padding: 20px 30px;
+}
+#bio {
+    foat: left;
+    width: 620px;
+}
+#bio h1 {
+    font-size: 22px;
+    font-family: roman;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#bio img {
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
