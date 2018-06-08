@@ -10,9 +10,12 @@ body {
     height: 15px;
     background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 50%, #888 50%, #888 75%, transparent 75%, transparent);
     background-size: 4px 4px;
-    width: 960px;
+    width: 901px;
+    margin-bottom: 20px;
 }
+
 /* HEADER */
+
 body header img {
     float: left;
 }
@@ -39,9 +42,14 @@ body header ul li {
 body main {
     clear: both;
 }
+
 /* MAIN PAGE */
+
 body main div ul {
         float: left;
+}
+#subhead ul li:first-child {
+    margin-right: 620px;
 }
 #text ul li {
     width: 901px;
@@ -83,6 +91,7 @@ body main h1 {
 }
 
 /* BIO */
+
 #share {
     float: right;
     background-color: #c36156;
@@ -90,14 +99,14 @@ body main h1 {
     padding: 20px 30px;
 }
 #bio {
-    foat: left;
-    width: 620px;
+    float: left;
+    width: 520px;
 }
 #bio h1 {
     font-size: 22px;
     font-family: roman;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 #bio img {
     float: left;
